@@ -1,0 +1,22 @@
+{
+  "name": "array-manipulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesiddn/array-manipulation.git"
+  },
+  "author": "yesiddn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yesiddn/array-manipulation/issues"
+  },
+  "homepage": "https://github.com/yesiddn/array-manipulation#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
