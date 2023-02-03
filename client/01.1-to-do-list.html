@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <p>Reto: crear un to do list y aplicar el metodo forEach para recorrer un array donde se escuentran las tareas renderizarlas en HTML.</p>
+    <div id="app"></div>
+    <script>
+      const toDoList = [
+        { name: 'Learn JavaScript', done: true },
+        { name: 'Learn Vue', done: false },
+        { name: 'Build something awesome', done: false },
+      ];
+
+      const app = document.getElementById('app');
+      let html = "";
+      toDoList.forEach((item) => {
+        html += `<div><input type="checkbox" name="${item.name}" id="${item.name}" ${
+          item.done && 'checked'
+        }> <label for="${item.name}">${item.name}</label> </div>`;
+      });
+
+      app.innerHTML = html;
+    </script>
+  </body>
+</html>
