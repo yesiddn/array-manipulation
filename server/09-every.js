@@ -35,4 +35,5 @@ const team = [
 ];
 
 const isYoungerTeam = team.every((member) => member.age <= 15);
-console.log(isYoungerTeam);
+
+// NOTE: every() return true if array is empty
