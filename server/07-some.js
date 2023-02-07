@@ -1,3 +1,6 @@
+// Some method returns true if at least one element in the array satisfies the provided testing function.
+
+
 // Execise with for
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 

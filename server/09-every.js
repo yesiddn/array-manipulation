@@ -1,3 +1,5 @@
+// every method returns true if all elements in the array satisfy the provided testing function.
+
 const numbers = [1, 30, 49, 29, 10, 13];
 
 let result = true;

@@ -1,3 +1,5 @@
+// filter method returns a new array with all elements that pass the test implemented by the provided function.
+
 const words = [
   'spray',
   'limit',

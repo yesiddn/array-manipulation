@@ -1,3 +1,6 @@
+// Find method returns the first element in the array that satisfies the provided testing function.
+// FindIndex method returns the index of the first element in the array that satisfies the provided testing function.
+
 const numbers = [1, 30, 49, 29, 10, 13];
 
 let found = undefined;
